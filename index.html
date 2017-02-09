@@ -1,0 +1,751 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords" content="" />
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+ <!---- start-smoth-scrolling---->
+</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div id="home" class="header">
+			<div style="background: rgba(0,0,0,0.7);">
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+					<!-- /logo -->
+					<!--top-nav---->
+					<div class="top-nav">
+					<div class="navigation">
+					<div class="logo">
+						<h1><a href="index.html"><span>前言</span></a></h1>
+					</div>
+					<div class="navigation-right">
+						<span class="menu"><img src="images/menu.png" alt=" " /></span>
+						<nav class="link-effect-3" id="link-effect-3">
+							<ul class="nav1 nav nav-wil">
+								<li class="active"><a data-hover="首页" href="index.html">首页</a></li>
+								<li><a class="scroll" data-hover="关于" href="#about">关于</a></li>
+								<li><a class="scroll" data-hover="专业介绍" href="#services" >专业介绍</a></li>
+								<li><a class="scroll" data-hover="工作经历" href="#work">工作经历</a></li>
+								<li><a class="scroll" data-hover="作品集" href="#port">作品集</a></li>
+								<li><a class="scroll" data-hover="联系方式" href="#contact">联系方式</a></li>
+							</ul>
+						</nav>
+							<!-- script-for-menu -->
+								<script>
+								   $( "span.menu" ).click(function() {
+									 $( "ul.nav1" ).slideToggle( 300, function() {
+									 // Animation complete.
+									  });
+									 });
+								</script>
+							<!-- /script-for-menu -->
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<!-- /top-hedader -->
+				</div>
+			<div class="banner-info">
+				<div class="col-md-7 header-right">
+					<h1>Hi !</h1>
+					<h6>java开发程序员</h6>
+					<ul class="address">
+					
+					<li>
+							<ul class="address-text">
+								<li><b>名字</b></li>
+								<li>陈柏宏</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>教育背景</b></li>
+								<li><img src="images/dzkj.jpg" width="20"/>&nbsp;电子科技大学（网教）</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>学历</b></li>
+								<li>大专</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>出生年月日</b></li>
+								<li>1993-5-11</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>电话 </b></li>
+								<li>+86 136 7800 5440</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>个人住址 </b></li>
+								<li>成都市 青羊区 光华大道 光华逸家</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>电子邮箱 </b></li>
+								<li><a href="mailto: 944942013@qq.com"> 944942013@qq.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>网页 </b></li>
+								<li><a href="http://www.baiHoo.com">www.baiHoo.com</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="col-md-5 header-left">
+					<img src="images/baiHong.jpg" alt="">
+				</div>
+				<div class="clearfix"> </div>
+						
+		      </div>
+			</div>
+		</div>
+	</div>
+			</div>
+		<!-- about -->
+			<div id="about" class="about">
+				<div class="col-md-6 about-left">
+					<div id="owl-demo1" class="owl-carousel owl-carousel2">
+					                <div class="item">
+					                	<div class="about-left-grid">
+											<h2>Hi! 我是<span>陈柏宏</span></h2>
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;亲！感谢在有闲暇的时间查看我的简历，我叫陈柏宏，是一名成人自考的大学生，
+												报考的是电子科技大学成人网教，选择的专业是计算机软件开发，学历是2.5年制的。
+												呵呵...！听上去学历不是很高，是啊！但这并不能说明我一个不努力的人，前年我对计算机的认识还是一个零基础的小白，
+												我用了一年半的时间去学习计算机软件开发应具备的知识。<br>
+												&nbsp;&nbsp;&nbsp;&nbsp;我熟悉 java环境开发项目，了解（thread）线程和（socket）网络编程，
+												熟练 MySql 和 Oracle 两种关系型数据库的使用，NoSql非关系型数据库库也有浅面了解过。html，css,javascript 基本前端网页开发 ，其中jQuery有深刻的使用！掌握前端和后台的Ajax，json数据交互。
+												MVC开发模式，会使用当前流行框架，spring，hibernate，struts2。</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">我的作品</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">聘用我</a></li>
+											</ul>
+										</div>
+					                </div>
+									<div class="item">
+					                	<div class="about-left-grid">
+											<h2>Hi! 我是<span>陈柏宏</span></h2>
+											<p>&nbsp;&nbsp;&nbsp;&nbsp;在计算机行业领域,我也深知计算机的发展日新月异，每年都会推陈出新，革新的速度已不单单是技术，更是智慧，思想的交流。
+												在国家博弈中落后就会挨打，同样在当今计算机领域的程序员固步自封，不主动接受新的知识，在时间的流沙中同样会被淘汰！<br>
+												&nbsp;&nbsp;&nbsp;&nbsp;说到这我心里也对自己能力不是很足也感到很惭愧，linux环境下开发一直不是我的长处，在计算机知识领域我欠缺的实在还是太多了，我也诚心希望会有一个实践的机会，让我学有所长，在工作中弥补自己的不足，和大神之间心有灵犀的交流！工资我的要求用能力证明自己的价值。
+												<br>&nbsp;&nbsp;&nbsp;&nbsp;我不是那个最好的，但我会是最有梦想的，最努力的那个!!!!!!!!
+												<!--<br>&nbsp;&nbsp;&nbsp;&nbsp;旅途！人生就像一场旅途，我不知道前方路是否坎坷崎岖，但我不想给自己不前走的理由-->
+											</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">我的作品</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">聘用我</a></li>
+											</ul>
+										</div>
+					                </div>
+					</div>
+				</div>
+				<div class="col-md-6 about-right">
+					
+				</div>
+				<div class="clearfix"> </div>
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			</div>
+			<!-- /about -->
+			<!-- services -->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head one text-center ">
+						<h4>我做什么</h4>
+						<h3>我的 <span>专业介绍</span></h3>
+						<span class="border two"></span>
+					</div>
+					<!-- services-grids -->
+					<div class="wthree_about_right_grids w3l-agile">
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-pencil"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>JAVA 设计</h4>
+						<p>Java是面向对象的语言。在java的世界中一切皆对象；之前我也学过c++;c++我也浅薄接触中。相比而言我更加钟意java，
+							起码在内存溢出常见的程序问题java更容易发现。java在初始化和清理，这我不会去过多考虑，清理是java内部垃圾回收机制已考虑到的问题！</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-cog"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>SQL 设计</h4>
+						<p>结构化查询语言SQL（STRUCTURED QUERY LANGUAGE）是最重要的关系数据库操作语言，
+							并且它的影响已经超出数据库领域，得到其他领域的重视和采用，如人工智能领域的数据检索，第四代软件开发工具中嵌入SQL的语言等。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-leaf"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>WEB 设计</h4>
+						<p>web是Java影响最深远的地方之一。网络程序设计是非常困难的，java使之得以简化。一个合格的web网页是前端和后台数据的动态交互，这里面就涉及到性能优化，在这方面我还是欠缺经验吧！</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-gift"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>主流 框架</h4>
+						<p>Spring + Struts +Hibernate，Spring + Struts +MyBatis,springMVC....。框架主要是提高工作的效率，真正要深入理解的是框架的思想；jdbc数据的访问！</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+					<!-- services-grids -->
+				</div>
+			</div>
+			<!-- services -->
+			<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<div class="service-head text-center">
+						<h4>之前我做什么</h4>
+						<h3>我的 <span>工作经历</span></h3>
+						<span class="border one"></span>
+					</div>
+					<div class="time-main w3l-agile">
+							<div class="col-md-6 year-info">
+							   <ul class="year">
+								   <li>2016</li>
+								   <li>2015</li>
+								   <li>2014</li>
+								   <li>2012-2014</li>
+								   <div class="clearfix"></div>
+								</ul>
+							</div> 
+					                        <ul class="col-md-6 timeline">
+												<li>
+												  <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+												  <div class="timeline-panel">
+													<div class="timeline-heading">
+													  <h4 class="timeline-title"></h4>
+													</div>
+													<div class="timeline-body">
+													  <p>&nbsp;&nbsp;&nbsp;&nbsp;2015年7月份我用我工地挣得积蓄，去新华电脑学校报了名学习计算机，还能有一个大学生的文凭，一直到2016年年底！<br>
+														  &nbsp;&nbsp;&nbsp;&nbsp;我是来自农村自读书起一直到高中辍学，计算机就是我新世界的大门！</p>
+													</div>
+												  </div>
+												</li>
+
+												<li>
+												  <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+												  <div class="timeline-panel">
+													<div class="timeline-heading">
+													  <h4 class="timeline-title"></h4>
+													</div>
+													<div class="timeline-body">
+													  <p>&nbsp;&nbsp;&nbsp;&nbsp;我叔的工地我去不了，我得另谋出路！2015过完年，我就只身一人去北京闯荡，成为北漂一族。北京闯荡了半年我才来到成都，谈起北京的半年我也是第一次触及作为一个北漂族的心酸，没依靠的亲戚，莫名彷徨。北京被骗的经历，更是我人生警醒的警钟！
+														  <br>&nbsp;&nbsp;&nbsp;&nbsp;来到成都,找工作时无意间接触对计算应聘者的招聘！这让我萌生我要学计算机的想法，工地上挣的钱足以支付起我的所需要的学习成本</p>
+													</div>
+												  </div>
+												</li>
+
+
+
+												<li>
+												  <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+												  <div class="timeline-panel">
+													<div class="timeline-heading">
+													  <h4 class="timeline-title"></h4>
+													</div>
+													<div class="timeline-body">
+													  <p> &nbsp;&nbsp;&nbsp;&nbsp;这年的11月份是我的转折年吧！工地的工作让我觉得这可能是我未来会一直做下去的工作，领着不错的工资，找个对象快点结婚！<br>
+														  &nbsp;&nbsp;&nbsp;&nbsp;国务院的政策出台对楼房调控，旧城改建，不许土地扩建。导致我叔他承包的下一个工程搁浅，我一直跟着我叔在工地工作，他承包的工程没有了就意味着我失业</p>
+													</div>
+												  </div>
+												</li>
+
+												<li>
+												  <div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+												  <div class="timeline-panel">
+													<div class="timeline-heading">
+													  <h4 class="timeline-title"></h4>
+													</div>
+													<div class="timeline-body">
+													  <p>
+														  &nbsp;&nbsp;&nbsp;&nbsp;我高中辍学早，我没有像我的其他同学那样去考自己梦寐以求的大学！2011年10月份选择去河北建筑工地工作，选择养活自己，
+														  给家里减少承担的负担！在工地干苦力的工人，天天搬砖打杂扛建筑材料，辛酸的汗水中更加珍视明白知识的可贵。<br>
+														  &nbsp;&nbsp;&nbsp;&nbsp;2013年差不多六月托我亲戚的信任，因为积累了工地中工作的经验，成为了一名施工员，算量；施方；放线；工程预算。看上去不错的工作相比之前轻松许多，工资也提高了
+													  </p>
+													</div>
+												  </div>
+												</li>
+
+											</ul>
+								<div class="clearfix"></div>
+								</div>
+						</div>
+				</div>
+	<!--//work-experience-->
+
+		<!-- portfolio -->
+<div class="portfolio" id="port">
+				<div class="service-head text-center">
+						<h4>我的 作品</h4>
+						<h3>我的 <span>作品集</span></h3>
+						<span class="border"></span>
+					</div>
+			<div class="portfolio-grids">
+				<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+				<script type="text/javascript">
+									$(document).ready(function () {
+										$('#horizontalTab').easyResponsiveTabs({
+											type: 'default', //Types: default, vertical, accordion           
+											width: 'auto', //auto or any width like 600px
+											fit: true   // 100% fit in a container
+										});
+									});
+									
+				</script>
+				<div class="sap_tabs">
+					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						<ul class="resp-tabs-list">
+							<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>所有</span></li>
+							<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>WEB 设计图案</span></li>
+							<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>说明</span></li>
+						</ul>				  	 
+						<div class="resp-tabs-container">
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+								<div class="col-md-3 team-gd ">
+									
+										<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic4.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="col-md-3 team-gd ">
+									
+										<a href="#portfolioModal3" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic5.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="col-md-3 team-gd ">
+									
+										<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="col-md-3 team-gd ">
+								
+										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="clearfix"></div>
+								<div style="width: 100%">
+									<div class="col-md-3 team-gd yes_marg ">
+
+										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.PNG" alt="">
+
+										</a>
+
+									</div>
+									<div class="col-md-3 team-gd yes_marg ">
+
+										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.PNG" alt="">
+
+										</a>
+
+									</div>
+									<div class="col-md-3 team-gd yes_marg ">
+
+										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.PNG" alt="">
+
+										</a>
+
+									</div>
+									<div class="col-md-3 team-gd yes_marg ">
+
+										<a href="#portfolioModal8" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic14.PNG" alt="">
+
+										</a>
+
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.PNG" alt="">
+										
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd  ">
+									<div class="thumb">
+										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.PNG" alt="">
+										
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									
+										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+								<div class="col-md-3 team-gd ">
+									
+										<a href="#portfolioModal2" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic9.PNG" alt="">
+										
+										</a>
+								
+								</div>
+								<div class="col-md-3 team-gd ">
+									
+										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic6.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="col-md-3 team-gd">
+									
+										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="col-md-3 team-gd">
+									
+										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.PNG" alt="">
+									
+										</a>
+									
+								</div>
+								<div class="clearfix"></div>
+							</div>
+								<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+								<div class="col-md-3 team-gd ">
+									
+										<a href="#portfolioModal5" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic10.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="col-md-3 team-gd">
+									
+										<a href="#portfolioModal6" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic11.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="col-md-3 team-gd ">
+									
+										<a href="#portfolioModal7" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/pic13.PNG" alt="">
+										
+										</a>
+									
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- //portfolio -->
+			<!-- /header -->
+			<div class="footer" id="contact">
+			<div class="container">
+			<div class="service-head one text-center">
+						<h4>联系我</h4>
+						<h3>欢迎你<span>与我联系</span></h3>
+						<span class="border two"></span>
+			</div>
+			<div class="mail_us">
+			<div class="col-md-6 mail_left" style="margin-left: 25%;">
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<h4>通过邮箱联系</h4>
+						<ul>
+							<li>Mail1: <a href="mailto:cbh12345661@hotmail.com">cbh12345661@hotmail.com</a></li>
+							<li>Mail2: <a href="mailto:944942013@qq.com">944942013@qq.com</a></li>
+						</ul>
+					</div>
+				</div>
+					<div class="contact-grid1-left">
+						<div class="contact-grid1-left1">
+							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+							<h4>通过电话联系我</h4>
+							<ul>
+								<li>手机号码: +86 13678005440</li>
+							</ul>
+						</div>
+					</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="copy_right text-center">
+			<h3 style="color: white;margin: 50px;font-weight: bolder;">在此由衷祝你新年快乐！</h3>
+		</div>
+	</div>
+</div>
+			<!-- //footer -->
+		<!-- /container -->
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <img src="images/pic4.PNG" class="img-responsive img-centered" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content port-modal">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<div class="modal-body">
+
+								<img src="images/pic9.PNG" class="img-responsive img-centered" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content port-modal">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<div class="modal-body">
+
+								<img src="images/pic5.PNG" class="img-responsive img-centered" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content port-modal">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<div class="modal-body">
+
+								<img src="images/pic6.PNG" class="img-responsive img-centered" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content port-modal">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<div class="modal-body">
+
+								<img src="images/pic10.PNG" class="img-responsive img-centered" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content port-modal">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<div class="modal-body">
+
+								<img src="images/pic11.PNG" class="img-responsive img-centered" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content port-modal">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<div class="modal-body">
+
+								<img src="images/pic13.PNG" class="img-responsive img-centered" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content port-modal">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<div class="modal-body">
+
+								<img src="images/pic14.PNG" class="img-responsive img-centered" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content port-modal">
+				<div class="close-modal" data-dismiss="modal">
+					<div class="lr">
+						<div class="rl"></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<div class="modal-body">
+								<img src="images/pic1.PNG" class="img-responsive img-centered" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	
+
+	</body>
+</html>
+
